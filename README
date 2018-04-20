@@ -1,0 +1,17 @@
+If you use this, please cite the following publication:
+Paper title: FitConnect: Connecting Noisy 2D Samples by Fitted Neighborhoods
+Paper authors: Stefan Ohrhallinger, Michael Wimmer
+Journal: Computer Graphics Forum, to appear in 2018
+Contact: ohrhallinger@cg.tuwien.ac.at
+Operation system required: Ubuntu 16.04LTS
+License: GNU General Public License (see gpl.txt)
+
+Download the source code:
+git clone https://github.com/stefango74/fitconnect.git
+cd fitconnect
+
+See BUILD on how to configure and build the software.
+Then run './figN.sh' or './tabN.sh' to generate the corresponding figure or table.
+
+Note that a screen size of at least 768x768 is required, otherwise the figures may become squashed.
+
