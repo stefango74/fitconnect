@@ -3197,7 +3197,7 @@ bool Reconstruct2D::reconstructNoisy()
 
 			// determine arc end points in degrees
 			int deg[3];	// start/center/end
-			Point pNormal[3] = { points[nhood[0][i].back()] - center, centerNormal, points[nhood[1][i].back()] - center };
+			Point pNormal[3] = { (nhood[0][i].size() > 0) ? (points[nhood[0][i].back()] - center) : centerNormal, centerNormal, (nhood[1][i].size() > 0) ? (points[nhood[1][i].back()] - center) : centerNormal };
 
 			for (j = 0; j < 3; j++)
 			{
